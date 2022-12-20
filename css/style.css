@@ -1,0 +1,237 @@
+*{
+    box-sizing: border-box;
+}
+.box{
+    width:1440px;
+    margin: -20px auto;
+    justify-content: center;
+}
+header{
+    background: #1E1E1E;
+    height:110px;
+}
+.logo p{
+    text-transform: uppercase;
+    padding-left: 50px;
+    margin-top: 38px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 42px;
+    color: #FFFFFF;
+}
+.navbar{
+    max-width: 1440px;
+    margin:auto;
+    display: flex;
+    align-items: center;
+}
+.navbar-menu{
+    margin:0px;
+    padding:0px;
+    padding-left: 341px;
+    list-style: none;
+    display: flex;
+    text-align: center;
+}
+.navbar-item{
+margin-left: 52px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+}
+.navbar-link{
+    text-decoration: none;
+    color:#fff;
+}
+.navbar-icon{
+    margin-left:422px;
+}
+#home{
+    height:674px;
+    margin-top: -21px;
+    display:flex;
+}
+#home h1{
+    width: 510px;
+    height: 63px;
+    margin-left: 120px;
+    margin-top: 158px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 120%;
+
+    color: #2C2C2C;
+}
+#home p{
+    width: 438px;
+    height: 156px;
+    margin-left: 120px;
+    margin-top: 11px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+
+    color: #696969;
+
+}
+.photo{
+    width: 460px;
+    height: 451.17px;
+    margin-left: 102px;
+    margin-top: 113px;
+    position: relative;
+}
+.certf{
+    width: 348px;
+    height: 233px;
+    margin-top: -160px;
+    margin-left: 384px;
+    position: relative;
+}
+#about{
+    height: 720px;
+    background: #EDEDED;
+    border: 1px solid #EDEDED;
+    
+}
+.about_cards{
+    display:flex;
+}
+.about_left, .about_mid, .about_right{
+    width: 400px;
+    height: 579px;
+    margin-top: 20px;
+}
+.about_h1{
+    width: 515px;
+    height: 45px;
+    margin-left: 70px;
+    margin-top: 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 120%;
+
+    color: #2C2C2C;
+
+}
+.about_left{
+    margin-left: 70px;
+}
+.about_mid{
+    margin-left: 49px;
+}
+.about_right{
+    margin-left: 49px;
+}
+.about_left h1, .about_mid h1, .about_right h1{
+    width: 400px;
+    height: 59px;
+    margin-top: 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 120%;
+    
+    color: #2C2C2C;
+}
+.about_left p, .about_mid p, .about_right p{
+width: 400px;
+height: 113px;
+margin-top: -30px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 120%;
+
+color: #000000;
+}
+#contact{
+    width: 635px;
+    height: 586px;
+    margin-left: 402px;
+    text-align: center;
+}
+.contact_h1{
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 120%;
+    margin-top: 45px;
+    color: #2C2C2C;
+    margin-left: -40px;
+}
+.contact_name{
+    width: 120px;
+    height: 28px;
+    margin-top: 0px;
+    margin-left: 240px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    color: #2C2C2C;
+} 
+.contact_exact{
+    margin-top: -15px;
+    width: 600px;
+    height: 56px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 140%;
+
+}
+.contact_exact a{
+    text-decoration: none;
+    color: #2C2C2C;
+}
+footer{
+    width: 1440px;
+    height: 135px;
+    display: flex;
+    background: #1E1E1E;
+}
+.number{
+    width: 149px;
+    height: 19px;
+    margin-left: 15px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+
+    color: #FFFFFF;
+}
+footer .logo{
+    margin-top: 15px;
+}
+.footer_contact{
+    margin-left:811px;
+    margin-top: 25px;
+    text-align: right;
+}
+.footer_icons{
+    padding-top:10px;
+}
+.footer_icons a{
+    margin-left: 5px;
+}
